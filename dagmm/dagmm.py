@@ -105,7 +105,7 @@ class DAGMM:
 
         with tf.Graph().as_default() as graph:
             self.graph = graph
-            tf.set_random_seed(self.seed)
+#             tf.set_random_seed(self.seed)
             np.random.seed(seed=self.seed)
 
             # Create Placeholder
